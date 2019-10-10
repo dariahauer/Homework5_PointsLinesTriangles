@@ -1,20 +1,18 @@
 public class LineTest {
-    public static void main(String[] args) {
+    Line line;
 
-        Point point1 = new Point(5, 6);
-        Point point2 = new Point(-3, 6);
-        Point point3 = new Point(2,2);
-
-        Line line = new Line(point1, point2);
-        System.out.println("Line length: " + line.lineLenght());
-
+    public LineTest(Line line) {
+        this.line = line;
     }
+
+
+
 
     public double lineLenghtCounter(Line line){
-        double line1;
-        double line2;
         return line.lineLenght();
     }
+
+    
 //
 //    public boolean triangleChecker(Point point){
 //
@@ -22,6 +20,7 @@ public class LineTest {
 //        boolean result =
 //    }
 }
+
 
 
 //if ((a+b>c) && (a+c>b) && (b+c>a))
