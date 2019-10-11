@@ -1,6 +1,6 @@
 public class Point {
-     double wspX;
-     double wspY;
+    private double wspX;
+    private double wspY;
 
     public Point(int wspX, int wspY) {
         this.wspX = wspX;
